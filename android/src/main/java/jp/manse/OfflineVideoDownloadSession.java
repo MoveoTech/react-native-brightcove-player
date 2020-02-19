@@ -1,6 +1,5 @@
 package jp.manse;
 
-import androidx.annotation.NonNull;
 import android.util.Log;
 
 import com.brightcove.player.edge.Catalog;
