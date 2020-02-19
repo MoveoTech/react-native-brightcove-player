@@ -6,7 +6,7 @@ import com.facebook.infer.annotation.Assertions;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.common.MapBuilder;
-import com.facebook.react.uimanager.SimpleViewManager;
+import com.facebook.react.uimanager.ViewGroupManager;
 import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.annotations.ReactProp;
 
@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class BrightcovePlayerManager extends SimpleViewManager<BrightcovePlayerView> {
+public class BrightcovePlayerManager extends ViewGroupManager<BrightcovePlayerView> {
     public static final String REACT_CLASS = "BrightcovePlayer";
     public static final int COMMAND_SEEK_TO = 1;
     public static final String EVENT_READY = "ready";
